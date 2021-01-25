@@ -1,0 +1,40 @@
+#1 You are at the gas station.
+@2 Talk to the clerk.
+@3 Look for a snack.
+@7 Leave
+
+#2 "Howdy!" says the clerk.
+@4 Make small talk about the weather.
+@5 Make small talk about politics.
+@6 Ask "How's it going today?"
+
+#3 There are lots of snacks.
+@8 Buy a candy bar.
+@9 Buy some trail mix.
+@10 Steal a candy bar.
+
+#4 "I hope it stops raining soon." says the clerk.
+@2 Continue to talk to the clerk.
+@3 Look for a snack.
+
+#5 "Those clowns in congress had better get their act together!" says the clerk.
+@2 Continue to talk to the clerk.
+@3 Look for a snack.
+
+#6 "Swell, thanks for asking!" says the clerk.
+@2 Continue to talk to the clerk.
+@3 Look for a snack.
+
+#7 You leave the gas station.
+
+#8 The candy bar costs $4. You only have $3.
+@10 Steal the candy bar.
+@9 Buy the trail mix instead.
+
+#9 The trail mix costs $3. The clerk says "Thanks! Have a great day!"
+@7 Leave the gas station.
+@3 Look for another snack.
+
+#10 "What do you think you're doing!?" yells the clerk. He throws you out of the store!
+@7 Leave the gas station.
+@1 Go to a different gas station.

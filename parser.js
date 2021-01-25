@@ -10,7 +10,7 @@ var fullScript = "";
 
 function setup()
 {
-	$('#inputTextArea').html(sample);
+	$('#inputTextArea').text(sample);
 }
 
 function parse()
@@ -24,7 +24,7 @@ function showNode(index)
 {
 	if (fullScript == "")
 	{
-		fullScript = $('#inputTextArea').html().replace(/(\r\n|\n|\r)/gm,"");
+		fullScript = $('#inputTextArea').val().replace(/(\r\n|\n|\r)/gm,"");
 	}
 	
 	var startIndex = fullScript.indexOf("#"+index);
